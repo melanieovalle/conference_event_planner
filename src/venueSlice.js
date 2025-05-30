@@ -1,9 +1,10 @@
 // venueSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
+
 export const venueSlice = createSlice({
   name: "venue",
-  initialState: [
+  initialState: [ // initial state: an array of venue objects
     {
       img: "https://pixabay.com/images/download/chairs-2181916_640.jpg",
       name: "Conference Room (Capacity:15)",
